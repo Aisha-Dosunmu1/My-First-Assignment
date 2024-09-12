@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <center><h3 style="background-color: yellow; height:80px; padding: 40px; margin-left: 10px; margin-bottom: 10px; margin-top: 10px;">My First WebPage</h3></center>
+    <div style="display: flex; flex-wrap: wrap ; gap: 30px;" >
+        <div>
+    <a href="#webpage-content">WebPage Content</a>
+    </div>
+    <div>
+    <a href="#information-table">Information Table</a>
+    </div>
+    <div>
+        <a href="#contact-form">Contact Form</a>
+    </div>
+    </div>
+<body>
+     <div>
+       <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg" alt="cat" width="800" height="600">
+     </div>
+     <div>
+         <h4 id="webpage-content">WebPage Content</h4>
+        <ul>
+            <li>Sugar</li>
+            <li>Pepper</li>
+            <li>Ice</li>
+        </ul>
+     </div>
+     <div>
+        <h4 id="information-table">Information Table</h4>
+        <table border="1px" cellpadding="5" cellspacing="0">
+            <tr>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Pen</td>
+                <td>Blue Pen</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Markers</td>
+                <td>Red Marker</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Notebooks</td>
+                <td>Spiral-bound Notebook</td>
+                <td>6</td>
+            </tr>
+        </table>
+     </div>
+     <div>
+        <h4 id="contact-form">Contact Form</h4>
+        <form>
+        <label>Name</label>
+         <input type="Name"/>
+         <br><br>
+         <label>Password</label>
+         <input type="password"/>
+         <br> <br>
+         <label>Email</label>
+         <input type="email"/>
+         <br> <br>
+         <label>Gender</label>
+         <input type="radio" id="male" name="gender" value="male"/>
+         <label for="male">Male</label>
+         <input type="radio" id="female" name="gender" value="female"/>
+         <label for="female">Female</label>
+         <br> <br>
+         <label>Subscribe</label>
+         <input type="checkbox" id="subscribe" name="subscribe"/>
+         <label for="subscribe">I want to subscribe</label>
+         <br> <br>
+         <label>Number of items</label>
+         <input type="text"/>
+         <br> <br>
+         <label>Date</label>
+         <input type="date"/>
+         <br> <br>
+         <label for="message">Message</label>
+         <textarea id="message" rows="4" cols="50" placeholder="Write your message here"></textarea>
+         <br> <br>
+         <input type="submit" value="Submit">
+        </form>
+     </div>
+</body>
+</html>
